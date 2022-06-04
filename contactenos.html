@@ -14,41 +14,54 @@
         <h2>CURRICULUM VITAE</h2>
 
         <nav>
-            <a href="index.html"> <i class="fa-solid fa-user-graduate"></i> PERFIL</a>
-            <a href="experiencia.html"> <i class="fa-solid fa-certificate"></i> EXPERIENCIA</a>
-            <a href="estudios.html"> <i class="fa-solid fa-graduation-cap"></i> EDUCACIÓN</a>
-            <a href="habilidades.html"> <i class="fa-solid fa-person-burst"></i> HABILIDADES</a>
-            <a href="software.html"> <i class="fa-solid fa-laptop-file"></i> SOFTWARE</a>
-            <a href="contactenos.html"> <i class="fa-solid fa-location-dot"></i> CONTACTO</a>
-          </nav>
-  
+          <a href="index.html"> <i class="fa-solid fa-user-graduate"></i> PERFIL</a>
+          <a href="experiencia.html"> <i class="fa-solid fa-certificate"></i> EXPERIENCIA</a>
+          <a href="estudios.html"> <i class="fa-solid fa-graduation-cap"></i> EDUCACIÓN</a>
+          <a href="habilidades.html"> <i class="fa-solid fa-person-burst"></i> HABILIDADES</a>
+          <a href="software.html"> <i class="fa-solid fa-laptop-file"></i> SOFTWARE</a>
+          <a href="contactenos.html"> <i class="fa-solid fa-location-dot"></i> CONTACTO</a>
+        </nav>
+
         <a href="#" class="hambur"><i class="fa-solid fa-bars"></i></a>
       </div>
     </header>
 
     <main>
-        <!-- SECCION MIS PERFIL -->
-        <section id="perfil">
+
+
+
+        <!-- SECCION CONTACTO -->
+        <section id="contactenos">
+            <h1 class="titulo">CONTACTO</h1>
+            <!-- Colocar Mapa -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7839.665815843878!2d-77.7525835788979!3d-10.747357976794753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910737f7586e4bab%3A0xebdebfb04d130090!2sCa.%20Buena%20Vista%2C%20Barranca%2015169!5e0!3m2!1ses-419!2spe!4v1654006757173!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <!--  FORMULARIO --> 
             <div class="container">
                 <div class="row">
-                    <div class="columna columna-25 columna-movil-100">
-                        <img src="images/perfil.jpg" alt="">
+                    <div class="columna columna-50 empujar-50 columna-movil-100 empujar-mobile-0 sin-padding">
+                        <form action="#" method="post">
+                            <div class="form-block">
+                                <input type="text" name="InputNombre" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="form-block">
+                                <input type="email" name="InputEmail" class="form-control" placeholder="E-mail">
+                            </div>
+                            <div class="form-block">
+                                <textarea name="InputMensaje" placeholder="Mensaje">
+                                
+                                </textarea>
+                            </div>
+                            <div class="form-block bloque-ultimo">
+                                <input class="btn-primary" type="submit" value="Enviar">
+                            </div>
+                        </form>
                     </div>
-                    <div class="columna columna-75 columna-movil-100">
-                        <h2>Estefany Lisset Vigo Campos</h2>
-                        <h3>Estudiante Técnico Profesional en Computación e Informática</h3>
-                        <p><i class="fa-solid fa-envelope"></i> Correo: vigo_estefany@institutovrht.edu.pe</p>
-                        <p><i class="fa-solid fa-mobile-screen"></i> Telefono: 989984797</p>
-                        <p><i class="fa-solid fa-house"></i>Dirección: Urb. Buena Vista Mz. E Lote 1</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui fugit expedita numquam, hic quidem quasi mollitia nam veritatis quae nihil rerum voluptates ex praesentium dicta esse ducimus, nulla eum aliquid.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui fugit expedita numquam, hic quidem quasi mollitia nam veritatis quae nihil rerum voluptates ex praesentium dicta esse ducimus, nulla eum aliquid.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui fugit expedita numquam, hic quidem quasi mollitia nam veritatis quae nihil rerum voluptates ex praesentium dicta esse ducimus, nulla eum aliquid.</p>
-                    </div>
+
                 </div>
             </div>
         </section>
 
-      
     </main>
 
     <footer>
@@ -102,6 +115,5 @@
     <script src="https://kit.fontawesome.com/bcda1dc1c0.js" crossorigin="anonymous"></script>
     <script src="js/my_js.js"></script>
    
-
     </body>
 </html>

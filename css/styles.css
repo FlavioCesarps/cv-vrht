@@ -44,11 +44,10 @@ a{
     display: inline-block;
     text-decoration: none;
 }
-#estudios .container, #habilidades .container, #experiencia .container, #perfil .container{
+#estudios .container, #habilidades .container, #experiencia .container, #perfil .container, #software .container{
     background-color: #fff;
     box-shadow: 0 4px 25px -22px #000;
 }
-
 
 
 /* selectores de clases */
@@ -126,7 +125,7 @@ header a {
     color: #fff;
     font-weight: 600;
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 header a:hover {
@@ -176,7 +175,7 @@ footer .container ul a{
 }
 
 footer .container ul a:hover{
-    color: #fff;
+    color: red;
     font-size: 16px;
 }
 
@@ -225,6 +224,10 @@ footer .container #redes li a {
     color: #DE1648;
 }
 
+#experiencia{
+    margin-top: 90px;
+}
+
 #experiencia h4{
     padding-bottom: 10px;
 }
@@ -243,6 +246,13 @@ footer .container #redes li a {
     color: #de1648;
     font-size: 18px;
 }
+
+#estudios, #habilidades, #software{
+    margin-top: 90px;
+}
+
+
+
 
 #estudios img{
     width: 100%;
@@ -414,9 +424,28 @@ footer .container #redes li a {
          color:#fff;
          background-color: #DE1648;
      }
- 
-    
+     #software .movil-50{
+         width: 50%;
+     }
 
 }
 
+#software img{
+    width: 100%;
+    padding: 6px;
+}
 
+#software .columna-18{
+    width: 18%;
+    justify-content: space-between;
+}
+
+.box{
+    background-color: #fff;
+}
+
+#software .shadow-s{
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: -2px -2px 28px -22px #000;
+}

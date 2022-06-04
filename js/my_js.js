@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     });
 
-   /* $("header .container nav a").click(function ()
+    $("header .container nav a").click(function ()
     {
         $("header .container nav").removeClass("open");
         $(".hambur i").removeClass("fa-times");
@@ -19,5 +19,5 @@ $(document).ready(function () {
         $("html,body").animate({
             "scrolltop": $(dev).offset().top
         });
-    });*/
+    });
 });
